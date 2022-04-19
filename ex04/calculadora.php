@@ -54,27 +54,27 @@ body {
   // Calculadora com Switch
   $num1 = $_POST['num1'];
   $num2 = $_POST['num2'];
-
   $operacao = $_POST['operacao'];
+
   switch ($operacao) {
     case 'soma':
       $resultado = $num1 + $num2;
-      echo "<h2>A soma é: $resultado</h2>";
+      echo "<p>A soma é: $resultado</p>";
       break;
     case 'subtracao':
       $resultado = $num1 - $num2;
-      echo "A subtração é: $resultado";
+      echo "<p>A subtração é: $resultado</p>";
       break;
     case 'multiplicacao':
       $resultado = $num1 * $num2;
-      echo "A multiplicação é: $resultado";
+      echo "<p>A multiplicação é: $resultado</p>";
       break;
     case 'divisao':
       $resultado = $num1 / $num2;
-      echo "A divisão é: $resultado";
+      echo "<p>A divisão é: $resultado</p>";
       break;
     default:
-      $resultado = "Operação inválida";
+      $resultado = "<p>Operação inválida</p>";
       break;
   }
   ?>
