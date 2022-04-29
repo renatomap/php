@@ -62,18 +62,18 @@
           </tbody>
         </table>
     </div>
-<h3>O resultado a ser mostrado na tela deve estar na seguinte ordem:</h3>
-<p>Hoje é: </p>
-<p>Nossa sugestão para hoje é:</p>
-<p>Preço: <?php echo "$dia" ?></p>
+  <h3>O resultado a ser mostrado na tela deve estar na seguinte ordem:</h3>
 </body>
 </html>
-<?php
-  $array = array('Domingo', 'Segunda-feira', 'Terça-feira', 'Quanta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado');
 
-  $dia = date('l');
-  var_dump($dia);
-  if($dia == 'Quinta-feira') {
-    return 'Lasanha a quatro queijos';
-  }
+<?php
+  $dia = array('Domingo', 'Segunda-feira', 'Terça-feira', 'Quanta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado');
+  $prato = array('Lasanha a quatro queijos', 'Frango ao molho madeira', 'Arroz à grega', 'Feijoada à moda da casa', 'Nhoque paulista', 'Bacalhau ao forno', 'Feijão Branco');
+  $preco = array('12,60', '10,00', '9,40', '11,20', '8,50', '15,20', '10,00');
+
+  $dia_semana = date('w');
+
+  echo "<p>Hoje é: $dia[$dia_semana]</p>";
+  Echo "<p>Nossa sugestão para hoje é: $prato[$dia_semana]</p>";
+  echo "<p>Preço: $preco[$dia_semana]</p>";
 ?>

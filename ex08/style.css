@@ -1,18 +1,13 @@
-:root {
-  font-size: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-
-}
 .t1 {
   background-color: rgba(2, 2, 2, 0.623);
+  
 }
 .fundo1 {
   background-color: rgb(180, 123, 245);
-  
 }
 .col {
   padding: 10px;
-  padding: 10px;
+  padding: 10px; 
   border: 10px;
   margin: 10px;
 }
@@ -20,8 +15,6 @@
   background-color: rgb(255, 255, 255);
   padding-right: 50px;
 }
-h3 {
-  font-weight: bold;
-  text-align: center;
-  font-size: 10px;
+td {
+  padding: 5px 45px 5px 5px;
 }
