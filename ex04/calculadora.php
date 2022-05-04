@@ -6,31 +6,29 @@
   <link rel="stylesheet" href="style.css">
   <style>
     h1 {
-  background-color: #de2121;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: white;
-  margin-bottom: 0px;
-  border-top-width: 50px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-form {
-  background-color: #de2121;
-  text-align: center;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 20px;
-}
-button:hover {
-  background-color: #990000be;
-  color: white;
-
-}
-
-body {
-  background-color: aqua;
-}
+    background-color: #de2121;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin-bottom: 0px;
+    border-top-width: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  form {
+    background-color: #de2121;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+  }
+  button:hover {
+    background-color: #990000be;
+    color: white;
+  }
+  body {
+    background-color: aqua;
+  }
 </style>
 </head>
 <body>

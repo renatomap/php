@@ -10,7 +10,7 @@
 </style>
 <?php
 
-    $ordemNum = [52, 10, 15,];
+    $ordemNum = [52, 10, 155,];
     // sort() - ordena o vetor em ordem crescente
     sort($ordemNum);
 
