@@ -11,7 +11,7 @@
       if($senha1 == $senha) {
           $_SESSION['user'] = $user;
           $_SESSION['pass'] = $senha1;
-          Header("Location:sessionpagina2.php");
+          Header("Location:sessionp2.php");
       }
   }
 

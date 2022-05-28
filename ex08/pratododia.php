@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
     <title>Prato do Dia</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -25,19 +24,19 @@
             </tr>
           </thead>
           <tbody class="linha">
-            <tr bgcolor="<?php echo $dia_semana===0?'LightSkyBlue':'white'?>">
+            <tr bgcolor="<?php echo $dia_semana==0?'LightSkyBlue':'white'?>">
               <td>0</td>
               <td>Domingo</td>
               <td>Lasanha a quatro queijos</td>
               <td>R$ 12,60</td>
             </tr>
-            <tr bgcolor="<?php echo $dia_semana===1?'LightSkyBlue':'white'?>">
+            <tr bgcolor="<?php echo $dia_semana==1?'LightSkyBlue':'white'?>">
               <td>1</td>
               <td>Segunda-feira</td>
               <td>Frango ao molho madeira</td>
               <td>R$ 10,00</td>
             </tr>
-            <tr bgcolor="<?php echo $dia_semana===2?'LightSkyBlue':'white'?>">
+            <tr bgcolor="<?php echo $dia_semana==2?'LightSkyBlue':'white'?>">
               <td>2</td>
               <td>Terça-feira</td>
               <td>Arroz à grega</td>
@@ -49,19 +48,19 @@
               <td>Feijoada à moda da casa</td>
               <td>R$ 11,20</td>
             </tr>
-            <tr bgcolor="<?php echo $dia_semana===4?'LightSkyBlue':'white'?>">
+            <tr bgcolor="<?php echo $dia_semana==4?'LightSkyBlue':'white'?>">
               <td>4</td>
               <td>Quinta-feira</td>
               <td>Nhoque paulista</td>
               <td>R$ 8,50</td>
             </tr>
-            <tr bgcolor="<?php echo $dia_semana===5?'LightSkyBlue':'white'?>">
+            <tr bgcolor="<?php echo $dia_semana==5?'LightSkyBlue':'white'?>">
               <td>5</td>
               <td>Sexta-feira</td>
               <td>Bacalhau ao forno</td>
               <td>R$ 15,20</td>
             </tr>
-            <tr bgcolor="<?php echo $dia_semana===6?'LightSkyBlue':'white'?>">
+            <tr bgcolor="<?php echo $dia_semana==6?'LightSkyBlue':'white'?>">
               <td>6</td>
               <td>Sábado</td>
               <td>Feijão Branco</td>

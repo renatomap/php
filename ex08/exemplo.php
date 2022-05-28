@@ -2,12 +2,12 @@
 <head><title>Prato do dia</title></head>
 <body bgcolor='#E6E6FA'>
 
-<?php
-$s = date('w');
- $semana = Array('Domingo', 'Segunda', 'Terça','Quarta', 'Quinta','Sexta', 'Sábado',);
- $sugestao = Array('Lasanha a quatro queijos', 'Frango ao molho madeira', 'Arroz a grega', 'Feijoada à moda da casa', 'Nhoque Paulista', 'Bacalhau ao forno','Feijão branco');
- $preco = Array(' R$ 12,60',' R$ 10,00','R$ 09,40','R$ 11,20',' R$ 08,50','R$ 15,20','R$ 10,00');
-?>
+  <?php
+    $s = date('w');
+    $semana = Array('Domingo', 'Segunda', 'Terça','Quarta', 'Quinta','Sexta', 'Sábado',);
+    $sugestao = Array('Lasanha a quatro queijos', 'Frango ao molho madeira', 'Arroz a grega', 'Feijoada à moda da casa', 'Nhoque Paulista', 'Bacalhau ao forno','Feijão branco');
+    $preco = Array(' R$ 12,60',' R$ 10,00','R$ 09,40','R$ 11,20',' R$ 08,50','R$ 15,20','R$ 10,00');
+  ?>
 
 <center><font color="#9370DB" face="future" size='10'><strong>PRATOS DO DIA</strong></font></center><br/><br/>
 
@@ -19,7 +19,7 @@ $s = date('w');
 <th >Preço</th>
 
 </tr>
-<tr bgcolor="<?php echo $s==0?'#DDA0DD':'#E6E6FA'?>">
+<tr bgcolor=" <?php echo $s==0?'#DDA0DD':'#E6E6FA'?>">
 <td>0</td>
 <td>Domingo</td>
 <td>Lasanha a quatro queijos</td>
@@ -62,6 +62,7 @@ $s = date('w');
 <td>R$ 10,00</td>
 </tr>
 </table>
+
 <?php
 echo"<br>";
 echo "Dia da semana é: <b>$semana[$s]</b><br>";

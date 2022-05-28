@@ -28,7 +28,6 @@
                 echo "<h2>O $i é divisor de $num </h2>";
             }
         }
-        
         ?>
     </div>
 </body>
